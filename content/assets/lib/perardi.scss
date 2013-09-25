@@ -1,0 +1,158 @@
+@mixin bigphoto {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@mixin darkblue {
+	color: #12426d;
+}
+
+
+html, body{
+    height: 100%;
+	font-family: "aktiv-grotesk-std", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16pt;
+}
+
+body{
+    overflow: hidden !important;
+}
+
+#photo_back_wrap {
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+	background: url(../img/cityscape_large.jpg) no-repeat center center fixed; 
+	@include bigphoto;
+}
+
+#central_dogma {
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	top: 25%;
+	background-color: #ffffff;
+	@include bigphoto;	
+	-webkit-box-shadow:  0px 0px 100px 0px rgba(100, 100, 100, 0.5);
+	box-shadow:  0px 0px 100px 0px rgba(100, 100, 100, 0.5);
+}
+
+@media only screen and (min-width: 768px) {
+
+	#central_dogma {
+		background: url(../img/cityscape_wash_large.jpg) no-repeat center center fixed; 
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	#photo_back_wrap {
+		background: url(../img/cityscape_medium.jpg) no-repeat center center fixed; 
+	}
+
+	#central_dogma {
+		background: url(../img/cityscape_wash_medium.jpg) no-repeat center center fixed; 
+	}
+	
+	#terminal_dogma {
+	width: 80% !important;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+	#photo_back_wrap {
+		background: url(../img/cityscape_small.jpg) no-repeat center center fixed; 
+	}
+	
+	#central_dogma {
+		background: url(../img/cityscape_wash_small.jpg) no-repeat center center fixed; 
+		@include bigphoto;	
+	}	
+	
+	#adam {
+		float: none;
+		width: 100%;
+	}
+
+	#eve {
+		float: none;
+		width: 100%;
+		border-left: none !important;
+		border-top: 1px solid #ffffff;
+		padding-left: 0;
+		padding-top: 2%;
+	}
+
+}
+
+#terminal_dogma {
+	width: 60%;
+	height: 100%;
+	overflow: hidden;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+#adam {
+	float: left;
+	width: 20%;
+}
+
+#eve {
+	float: right;
+	width: 75%;
+	border-left: 1px solid #ffffff;
+	padding-left: 2%;
+}
+
+h1, p {
+	@include darkblue;
+}
+
+h1 {
+	font-family: "aktiv-grotesk-std", "Helvetica Neue", Arial, sans-serif !important;
+	font-style: normal !important;
+	font-weight: 200 !important;
+	font-size: 2.75em !important;
+	margin: 0 !important;
+	zoom: 1 !important;
+	filter: alpha(opacity=75) !important;
+	opacity: 0.75 !important;
+}
+
+.lighter {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.50;
+	font-size: 0.85em;	
+}
+
+.even_lighter {
+	zoom: 1;
+	filter: alpha(opacity=25);
+	opacity: 0.25;	
+	font-size: 0.65em;
+}
+
+p {
+	font-family: "aktiv-grotesk-std", "Helvetica Neue", Arial, sans-serif !important;	
+	font-size: 1em;
+}
+
+.smaller {
+	font-size: 0.85em;
+}
+
+a {
+	@include darkblue;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+}

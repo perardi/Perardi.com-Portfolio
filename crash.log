@@ -1,0 +1,248 @@
+Crashlog created at 2013-07-06 23:51:15 +0000
+
+===== MESSAGE:
+
+Sass::SyntaxError: Undefined variable: "$line".
+
+===== COMPILATION STACK:
+
+  - [item]   /assets/styles/ (rep default)
+
+===== STACK TRACE:
+
+  0. content/assets/styles.scss:75
+  1. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/script/variable.rb:49:in `_perform'
+  2. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/script/node.rb:40:in `perform'
+  3. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/script/list.rb:70:in `block in _perform'
+  4. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/script/list.rb:70:in `map'
+  5. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/script/list.rb:70:in `_perform'
+  6. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/script/node.rb:40:in `perform'
+  7. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+  8. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+  9. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+  10. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+  11. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
+  12. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+  13. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+  14. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+  15. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+  16. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+  17. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+  18. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+  19. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+  20. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+  21. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
+  22. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+  23. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+  24. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+  25. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+  26. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+  27. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+  28. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+  29. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+  30. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:7:in `visit'
+  31. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/tree/root_node.rb:20:in `render'
+  32. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
+  33. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
+  34. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/filters/sass.rb:40:in `run'
+  35. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  36. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
+  37. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  38. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
+  39. ./Rules:33:in `block in load'
+  40. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  41. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  42. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
+  43. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
+  44. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
+  45. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
+  46. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  47. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  48. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/commands/compile.rb:363:in `block in run'
+  49. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/commands/compile.rb:404:in `run_listeners_while'
+  50. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/commands/compile.rb:362:in `run'
+  51. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  52. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  53. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  54. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:13:in `call'
+  55. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  56. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  57. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  58. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  59. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  60. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  61. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  62. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  63. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli.rb:52:in `block in run'
+  64. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  65. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  66. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib/nanoc/cli.rb:50:in `run'
+  67. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/bin/nanoc:19:in `<top (required)>'
+  68. /home/perardi/.rvm/gems/ruby-1.9.3-p429/bin/nanoc:23:in `load'
+  69. /home/perardi/.rvm/gems/ruby-1.9.3-p429/bin/nanoc:23:in `<main>'
+  70. /home/perardi/.rvm/gems/ruby-1.9.3-p429/bin/ruby_noexec_wrapper:14:in `eval'
+  ... 73 more lines omitted. See full crash log for details.
+
+===== VERSION INFORMATION:
+
+nanoc 3.6.4 © 2007-2013 Denis Defreyne.
+Running ruby 1.9.3 (2013-05-15) on x86_64-linux with RubyGems 2.0.3.
+
+===== SYSTEM INFORMATION:
+
+Linux perardi 3.2.0-23-virtual #36-Ubuntu SMP Tue Apr 10 22:29:03 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
+
+===== INSTALLED GEMS:
+
+  addressable 2.3.4
+  adsf 1.1.1
+  builder 3.2.2
+  bundler 1.3.5
+  coffee-script 2.2.0
+  coffee-script-source 1.6.2
+  colored 1.2
+  cri 2.3.0
+  css_parser 1.2.6
+  deadweight 0.2.2
+  execjs 1.4.0
+  jsmin 1.0.1
+  json 1.8.0
+  kramdown 0.14.2
+  multi_json 1.7.5
+  nanoc 3.6.4
+  nanoc-cachebuster 0.3.1
+  nokogiri 1.5.9
+  rack 1.5.2
+  rainpress 1.0
+  rdoc 4.0.1
+  rubypants 0.2.0
+  sass 3.2.9
+  typogruby 1.0.15
+
+===== ENVIRONMENT:
+
+BUNDLE_BIN_PATH => "/home/perardi/.rvm/gems/ruby-1.9.3-p429@global/gems/bundler-1.3.5/bin/bundle"
+BUNDLE_GEMFILE => "/home/perardi/Dropbox/public_dev/Gemfile"
+GEM_HOME => "/home/perardi/.rvm/gems/ruby-1.9.3-p429"
+GEM_PATH => "/home/perardi/.rvm/gems/ruby-1.9.3-p429:/home/perardi/.rvm/gems/ruby-1.9.3-p429@global"
+HOME => "/home/perardi"
+IRBRC => "/home/perardi/.rvm/rubies/ruby-1.9.3-p429/.irbrc"
+LANG => "en_US.UTF-8"
+LANGUAGE => "en_US:en"
+LOGNAME => "perardi"
+MAIL => "/var/mail/perardi"
+MANPATH => "/home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/kramdown-0.14.2/man"
+MY_RUBY_HOME => "/home/perardi/.rvm/rubies/ruby-1.9.3-p429"
+OLDPWD => "/home/perardi/Dropbox"
+PATH => "/home/perardi/.rvm/gems/ruby-1.9.3-p429/bin:/home/perardi/.rvm/gems/ruby-1.9.3-p429@global/bin:/home/perardi/.rvm/rubies/ruby-1.9.3-p429/bin:/home/perardi/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+PWD => "/home/perardi/Dropbox/public_dev"
+RUBYOPT => "-I/home/perardi/.rvm/gems/ruby-1.9.3-p429@global/gems/bundler-1.3.5/lib -rbundler/setup"
+RUBY_VERSION => "ruby-1.9.3-p429"
+SHELL => "/bin/bash"
+SHLVL => "1"
+SSH_CLIENT => "24.148.59.76 40112 22"
+SSH_CONNECTION => "24.148.59.76 40112 198.199.116.194 22"
+SSH_TTY => "/dev/pts/0"
+TERM => "xterm-256color"
+USER => "perardi"
+_ => "/home/perardi/.rvm/gems/ruby-1.9.3-p429/bin/nanoc"
+_ORIGINAL_GEM_PATH => "/home/perardi/.rvm/gems/ruby-1.9.3-p429:/home/perardi/.rvm/gems/ruby-1.9.3-p429@global"
+rvm_bin_path => "/home/perardi/.rvm/bin"
+rvm_path => "/home/perardi/.rvm"
+rvm_prefix => "/home/perardi"
+rvm_version => "1.21.2 (stable)"
+
+===== GEMFILE.LOCK:
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.4)
+    adsf (1.1.1)
+      rack (>= 1.0.0)
+    builder (3.2.2)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.2)
+    colored (1.2)
+    cri (2.3.0)
+      colored (>= 1.2)
+    css_parser (1.2.6)
+      addressable
+      rdoc
+    deadweight (0.2.2)
+      css_parser (~> 1.2.6)
+      nokogiri
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    jsmin (1.0.1)
+    json (1.8.0)
+    kramdown (0.14.2)
+    multi_json (1.7.5)
+    nanoc (3.6.4)
+      cri (~> 2.3)
+    nanoc-cachebuster (0.3.1)
+      nanoc (>= 3.3.0)
+    nokogiri (1.5.9)
+    rack (1.5.2)
+    rainpress (1.0)
+    rdoc (4.0.1)
+      json (~> 1.4)
+    rubypants (0.2.0)
+    sass (3.2.9)
+    typogruby (1.0.15)
+      rubypants
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf (~> 1.1)
+  builder (~> 3.1)
+  coffee-script (~> 2.2)
+  deadweight (~> 0.2)
+  jsmin (~> 1.0)
+  kramdown (~> 0.14)
+  nanoc (~> 3.4)
+  nanoc-cachebuster (~> 0.3)
+  rack (~> 1.4)
+  rainpress (~> 1.0)
+  sass (~> 3.1)
+  typogruby (~> 1.0)
+
+===== LOAD PATHS:
+
+  0. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib
+  1. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/typogruby-1.0.15/lib
+  2. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/sass-3.2.9/lib
+  3. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/rubypants-0.2.0/.
+  4. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/rainpress-1.0/lib
+  5. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-cachebuster-0.3.1/lib
+  6. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nanoc-3.6.4/lib
+  7. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/kramdown-0.14.2/lib
+  8. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/jsmin-1.0.1/lib
+  9. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/deadweight-0.2.2/lib
+  10. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/nokogiri-1.5.9/lib
+  11. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/css_parser-1.2.6/lib
+  12. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/rdoc-4.0.1/lib
+  13. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/json-1.8.0/lib
+  14. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/cri-2.3.0/lib
+  15. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/colored-1.2/lib
+  16. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/coffee-script-2.2.0/lib
+  17. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/execjs-1.4.0/lib
+  18. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/multi_json-1.7.5/lib
+  19. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/coffee-script-source-1.6.2/lib
+  20. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/builder-3.2.2/lib
+  21. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/adsf-1.1.1/lib
+  22. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.5.2/lib
+  23. /home/perardi/.rvm/gems/ruby-1.9.3-p429/gems/addressable-2.3.4/lib
+  24. /home/perardi/.rvm/gems/ruby-1.9.3-p429@global/gems/bundler-1.3.5/lib
+  25. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/site_ruby/1.9.1
+  26. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/site_ruby/1.9.1/x86_64-linux
+  27. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/site_ruby
+  28. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/vendor_ruby/1.9.1
+  29. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
+  30. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/vendor_ruby
+  31. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1
+  32. /home/perardi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/x86_64-linux
